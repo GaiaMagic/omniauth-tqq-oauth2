@@ -2,9 +2,9 @@ require 'omniauth-oauth2'
 
 module OmniAuth
   module Strategies
-    class Tqq2 < OmniAuth::Strategies::OAuth2
+    class Tqq < OmniAuth::Strategies::OAuth2
       # Give your strategy a name.
-      option :name, "tqq2"
+      option :name, "tqq"
 
       # This is where you pass the options you would pass when
       # initializing your consumer from the OAuth gem.
